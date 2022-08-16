@@ -10,7 +10,7 @@ bmi_as_int = int(bmi)
 # print the user's BMI
 print('Your BMI is ' + str(bmi_as_int))
 
-# Conditionals
+# Conditionals and give the user some general advice based on their score
 if bmi_as_int <= 18:
     print("Under the government health guidelines, you are considered to be underweight.\nConsider looking into your diet to increase your weight.")
 elif bmi_as_int <= 25:
