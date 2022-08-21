@@ -35,7 +35,4 @@ button_calculate = tkinter.Button(root, text="Calculate", fg="black", command=ca
 button_calculate.pack() # get the button to appear on the GUI
 
 
-
-
-
 root.mainloop() # Keep the GUI window open whilst the program runs
